@@ -1,7 +1,7 @@
 const compiler = require('json-to-css-fullsnack');
 
 
-modules.export = {
+module.exports = {
     createHtmlArray: (content) => {
         let res = [];
         content.map(el => {
