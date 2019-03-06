@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "node index.js"
+    "dev": "node index.js"
   },
   "repository": {
     "type": "git",
@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/fullsnackdeveloper/json-html/issues"
   },
-  "homepage": "https://github.com/fullsnackdeveloper/json-html#readme"
+  "homepage": "https://github.com/fullsnackdeveloper/json-html#readme",
+  "dependencies": {
+    "json-to-css-fullsnack": "^1.0.1-beta.2"
+  }
 }
